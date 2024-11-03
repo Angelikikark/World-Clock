@@ -63,3 +63,21 @@ footer {
   font-size: 18px;
   color: rgba(0, 0, 0, 0.8);
 }
+.home-link {
+  display: block;
+  font-size: 14px;
+  border-radius: 4px;
+  padding: 8px 16px;
+  width: auto;
+  background-color: #dc81df;
+  color: white;
+  text-decoration: none;
+  border: 1px solid #dc81df;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.home-link:hover {
+  background-color: #f1a9eb;
+}
